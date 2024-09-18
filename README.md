@@ -47,3 +47,4 @@ curl 'https://exdezzoyljbzksrsnfqc.supabase.co/rest/v1/profile?select=*' \
 -H "apikey: SUPABASE_CLIENT_ANON_KEY" \
 -H "Authorization: Bearer SUPABASE_CLIENT_ANON_KEY"
           # Template_Chat
+
