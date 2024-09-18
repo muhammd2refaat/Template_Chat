@@ -32,7 +32,7 @@ export default function ChatInput() {
 			setOptimisticIds(newMessage.id);
 			const { error } = await supabase
 				.from("messages")
-				.insert(newMessage);
+				.insert({ id, text, send_by: user?.id });
 			if (error) {
 				toast.error(error.message);
 			}
